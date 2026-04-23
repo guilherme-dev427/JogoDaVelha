@@ -1,0 +1,115 @@
+############################
+## .NET / Visual Studio
+############################
+
+# Build
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code (caso abra por engano)
+.idea/
+.vscode/
+
+############################
+## Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+## Logs
+############################
+
+*.log
+
+############################
+## NuGet
+############################
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+############################
+## MAUI / Mobile
+############################
+
+# Android
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+.gradle/
+local.properties
+
+# iOS
+*.ipa
+*.mobileprovision
+*.p12
+*.cer
+
+# Windows (MAUI)
+*.msix
+*.appx
+*.appxbundle
+*.pfx
+
+############################
+## Cache / Temp
+############################
+
+*.tmp
+*.temp
+
+############################
+## Testes
+############################
+
+TestResults/
+
+############################
+## Banco de dados local
+############################
+
+*.db
+*.db-shm
+*.db-wal
+
+############################
+## WebView / Frontend (se usar)
+############################
+
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+############################
+## Variáveis de ambiente
+############################
+
+.env
+.env.*
+
+############################
+## Publicação
+############################
+
+publish/
